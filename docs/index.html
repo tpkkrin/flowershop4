@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Цветочный магазин</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div id="preloader">
+    <div class="spinner"></div>
+  </div>
+  
+  <!--ШАПКА-->
+  <header class="header">
+    <div class="container">
+      <nav class="header__nav">
+        <ul class="header__list">
+          <li><a href="#predl">Предложения</a></li>
+          <li><a href="#sale">Акции</a></li>
+          <li><a href="#assort">Ассортимент</a></li>
+          <li><a href="#contacts">Контакты</a></li>
+        </ul>
+      </nav>
+      <a href="#predl" class="btn">Заказать</a>
+    </div>
+  </header>
+
+
+    <!--ЗАГОЛОВОК-->
+  <main class="main">
+    <section class="welcome">
+      <div class="container">
+        <div class="welcome__text">
+          <h1 class="welcome__title">Цветочный магазин</h1>
+        </div>
+      </div>
+    </section>
+
+
+      <!--О НАС-->
+    <section class="description">
+      <div class="description__wrap">
+          <p class="description__about">
+            Добро пожаловать в наш цветочный магазин! Мы предлагаем широкий ассортимент свежих цветов и букетов для любого случая. Наши профессиональные флористы с любовью создают букеты для свадеб, юбилеев, корпоративов и просто так, чтобы подарить радость близким. Посетите наш магазин или закажите онлайн, чтобы окунуться в мир красоты и вдохновения!
+          </p>
+      </div>
+    </section>
+
+
+
+  <!--ПРЕДЛОЖЕНИЯ-->
+    <main id="predl">
+      <div class="row">
+            <div class="image-container">
+                <img src="./images/product6.jpg" alt="" class="image">
+                <div class="overlay">БУКЕТЫ В НАЛИЧИИ</div>
+            </div>
+            <div class="image-container">
+                <img src="./images/product7.jpg" alt="" class="image">
+                <div class="overlay">СОБРАТЬ БУКЕТ</div>
+            </div>
+      </div>
+      <div class="row">
+          <div class="image-container">
+              <img src="./images/product8.jpg" alt="" class="image">
+              <div class="overlay">БУКЕТЫ В КОРЗИНЕ</div>
+          </div>
+          <div class="image-container">
+              <img src="./images/product9.jpg" alt="" class="image">
+              <div class="overlay">БУКЕТ НЕВЕСТЫ</div>
+          </div>
+      </div>
+    </main>
+
+
+
+      <!--СКИДКИ-->
+    <main id="sale">
+      <section class="order">
+        <div class="container">
+          <img src="./images/product4.jpg" alt="" class="order__img">
+          <div class="order__text">
+            <h3 class="order__title">Букет красных роз</h3>
+            <p class="order__desc">Романтичный выбор, который всегда актуален. Красные розы символизируют любовь и уважение, что делает этот букет идеальным подарком для особых случаев.</p>
+            <span class="order__price">6 000₽</span>
+            <span class="order__price order__price--old">8 000₽</span>
+            <a href="#!" class="btn">Купить</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+
+
+    <!--АССОРТИМЕНТ-->
+    <main id="assort">
+      <section class="flower-list">
+        <div class="container">
+          <div class="flower-list__card">
+            <img src="./images/pion.jpg" alt="" class="flower-list__img">
+            <div class="flower-list__text-wrapper">
+              <h4 class="flower-list__title">Букет из пионов</h4>
+              <p class="flower-list__desc">Яркое и гармоничное сочетание, которое привносит в любой интерьер свежесть.</p>
+            </div>
+          </div>
+
+          <div class="flower-list__card">
+            <img src="./images/product2.jpg" alt="" class="flower-list__img">
+            <div class="flower-list__text-wrapper">
+              <h4 class="flower-list__title">Букет из роз</h4>
+              <p class="flower-list__desc">Классический и универсальный подарок, который подходит для любого случая</p>
+            </div>
+          </div>
+
+          <div class="flower-list__card">
+            <img src="./images/product3.jpg" alt="" class="flower-list__img">
+            <div class="flower-list__text-wrapper">
+              <h4 class="flower-list__title">Букет из тюльпанов</h4>
+              <p class="flower-list__desc">Добавляют игривость и свежесть, символизируя весну и новое начало.</p>
+            </div>
+          </div>
+
+          <div class="flower-list__card">
+            <img src="./images/product5.jpg" alt="" class="flower-list__img">
+            <div class="flower-list__text-wrapper">
+              <h4 class="flower-list__title">Букет из гипсофилы</h4>
+              <p class="flower-list__desc">Нежное и воздушное цветочное оформление, которое создаст атмосферу нежности. </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+
+        <!--ОТЗЫВЫ-->
+    <div class="feedback">
+      <div class="feedback__gl">
+        <h3>Отзывы покупателей</h3>
+      </div>
+      <div class="container">
+        <img src="./images/feedback.png" alt="" class="feedback__img">
+        <blockquote class="feedback__text">
+          <p class="feedback__desc">
+            Посетила ваш цветочный магазин и осталась очень довольна! Ассортимент впечатляет: свежие цветы на любой вкус. Сотрудники вежливые и профессиональные, помогли выбрать идеальный букет. Обязательно вернусь снова! Всем добра!!!</p>
+          <cite class="feedback__author">Катя Корбич</cite>
+        </blockquote>
+      </div>
+    </div>
+  </main>
+
+        <!--ФОРМА-->
+<section class="form-section">
+  <div class="container">
+    <h2>Оставьте заявку на заказ</h2>
+    <form id="contactForm" class="form">
+      <label for="name">Ваше имя</label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Введите ваше имя"
+        required
+        pattern="^[А-Яа-яЁёA-Za-z ]{2,50}$"
+        title="Введите корректное имя"
+      />
+      <label for="email">Ваш Email</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Введите ваш email"
+        required
+        title="Введите корректный адрес электронной почты"
+      />
+      <label for="phone">Ваш телефон</label>
+      <input
+        type="tel"
+        id="phone"
+        name="phone"
+        placeholder="+7 (___) ___-__-__"
+        required
+        pattern="^\+7\s\(\d{3}\)\s\d{3}-\d{2}-\d{2}$"
+        title="Введите телефон в формате +7 (___) ___-__-__"
+      />
+      <button type="submit" class="btnc">Оставить заявку</button>
+    </form>
+    <div id="successMessage" class="success-message hidden">Заявка отправлена!</div>
+  </div>
+</section>
+
+
+        <!--КОНТАКТЫ-->
+  <main id="contacts">
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__contacts">
+          <h3 class="footer__link">Связь с нами:</h3>
+          <a class="footer__link footer__link-mail" href="">kokorina_tp@edu.surgu.ru</a>
+          <a class="footer__list-item"><a href="#!">г. Сургут, ул. Энергетиков, 22</a>
+        </div>
+        <nav class="footer__nav">
+          <ul class="footer__list">
+            <li class="footer__list-title footer__menu">
+              <h3 class="footer__title" href="#!">Ассортимент</h3>
+              <ul class="footer__inner-list">
+                <li class="footer__list-item"><a href="#!">Собрать букет</a></li>
+                <li class="footer__list-item"><a href="#!">Букеты невесты</a></li>
+                <li class="footer__list-item"><a href="#!">Букеты в наличии</a></li>
+              </ul>
+            </li>
+            <li class="footer__list-title footer__info">
+              <h3 class="footer__title" href="#!">Информация</h3>
+              <ul class="footer__inner-list">
+                <li class="footer__list-item"><a href="#!">О нас</a></li>
+                <li class="footer__list-item"><a href="#!">Акции</a></li>
+                <li class="footer__list-item"><a href="#!">Предложения</a></li>
+              </ul>
+            </li>
+            <li class="footer__list-title footer__links">
+              <h3 class="footer__title" href="#!">Сервисы</h3>
+              <ul class="footer__inner-list">
+                <li class="footer__list-item"><a href="#!">Поддержка</a></li>
+                <li class="footer__list-item"><a href="#!">Помощь с заказом</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </main>
+  <script src="./script.js" defer></script>
+</body>
+</html>
